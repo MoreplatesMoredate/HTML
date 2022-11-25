@@ -20,20 +20,24 @@ li:hover{
     background-color: orange;
 }
 .Titulo{
+    display: block;
 
 
 }
 .Titulo2{
     position: relative;
-
+    display: block;
+    float: right;
 }
 .Titulo3{
     position: relative;
-
+    display: block;
+    float: right;
 }
 footer{
     background-color: aliceblue;
     width: 100%;
     font-size: large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
 }
