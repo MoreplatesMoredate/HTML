@@ -1,0 +1,39 @@
+.Menu{
+    background-color: grey;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    display: block;
+}
+ul{
+    list-style: none;
+    display: inline-flex;
+}
+li{
+    margin: 10px;
+    display: block;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+li:hover{
+    background-color: orange;
+}
+.Titulo{
+
+
+}
+.Titulo2{
+    position: relative;
+
+}
+.Titulo3{
+    position: relative;
+
+}
+footer{
+    background-color: aliceblue;
+    width: 100%;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
