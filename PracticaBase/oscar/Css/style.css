@@ -48,7 +48,7 @@ section{
 
 .contingut{
     position: relative;
-    width: 1150px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,9 +130,9 @@ section{
     margin-bottom: 100px;
 }
 
-footer{
-    margin: 0;
-    padding: 0;
-    background-color:var(--cinco);
-    text-align: center;
+#footer{
+    color: var(--cinco);
+   position: absolute;
+   background: var(--primary);
+   text-align: center;
 }
