@@ -4,37 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PaginaWeb</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>GaleriaDeArte</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
-<body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home<span class="sr-only">(actiu)</span></a>
-            <a class="nav-item nav-link" href="#"><img id="home" src="icons8-home-page-24.png">Home2</a>
-            <a class="nav-item nav-link" href="#">Home3</a>
-          </div>
-        </div>
-      </nav>
-      <video autoplay loop muted plays-inline class="video">
-        <source src="video.mp4" type="video/mp4">
-      </video>
-    </header>
-    <div class="texto">
-        <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, eum?</h1>
-        <h3>Lorem ipsum dolor sit amet.</h3>
-        <p>Lorem, ipsum dolor.</p>
-        <a href="#">Explorar</a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Html/form.html">Formulari</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
     </div>
-    <footer>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, minima!</footer>
+  </nav>
+<body>
+    <section class="section1">
+        <div class="container">
+            <h2 class="titulo">Explora la nostre galeria d'art</h2>
+            <div class="contingut">
+                <div class="imatge">
+                    <img src="./Img/img1.png" alt="">
+                </div>
+                <div class="texto">
+                    <h3>Les millors obres</h3>
+                    <p>Aquí podras explorar les millors obres d'art</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2">
+    <div class="container">
+        <h3 class="titulo2">Lorem ipsum dolor</h3>
+        <div class="contingut">
+            <div class="imatge2">
+                <img class="foto2" src="./Img/img2.png" alt="">
+            </div>
+            <div class="informacio">
+                <h4 class="tituloinformacio">Lorem ipsum dolor sit amet.</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, excepturi.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section class="section3">
+        <div class="container">
+            <h3 class="titulo3">Lorem, ipsum dolor.</h3>
+            <div class="contingut">
+                <div class="githubs">
+                    <li><a href="https://github.com/oscardominguez11" class="fab fa-github">Github Oscar</a></li>
+                    <li><a href="#" class="fab fa-github">Github Danny</a></li>
+                    <li><a href="#" class="fab fa-github">Github Karim</a></li>
+                </div>
+                <div class="imatge">
+                    <img src="./Img/img3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer><p>Creat per Oscar Karim Danny</p></footer>
+    <script>
+        ScrollReveal({ 
+            
+            distance: '60px',
+            duration: 2500,
+            delay: 400
+         });
+
+         ScrollReveal().reveal('.titulo, .titulo2, .titulo3', { delay: 500, origin: 'left' });
+         ScrollReveal().reveal('.section1, .imatge, .imatge2', { delay: 600, origin: 'bottom' });
+         ScrollReveal().reveal('.texto, p, .tituloinformacio', { delay: 700, origin: 'right' });
+         ScrollReveal().reveal('.githubs', { delay: 700, origin: 'left', interval:200 });
+    </script>
 </body>
+</html>

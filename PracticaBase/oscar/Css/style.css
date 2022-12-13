@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+:root{
+    --primary: #27296d;
+    --secondary: #5e63b6;
+    --teciari:#a393eb;
+    --cuarto:#f5c7f7;
+    --cinco:#f8f8f8;
+    --sexto:#dfebed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--primary);
+}
+
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+    color: var(--cinco);
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    font-size: 5em;
+    margin-bottom: 55px;
+}
+
+.contingut{
+    position: relative;
+    width: 1150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contingut .imatge{
+    position: relative;
+    width: 500px;
+    height: 700px;
+    overflow: hidden;
+}
+
+.contingut .imatge img{
+    z-index: 111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.contingut .texto{
+    z-index: 222;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    padding: 40px;
+    max-width: 400px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    transform: translate(-80px, 50px);
+}
+
+.contingut .texto h3{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.titulo2{
+    font-size: 3em;
+    margin-bottom: 80px;
+}
+
+.tituloinformaci{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.informacio{
+    width: 700px;
+    margin-left: 50px;
+}
+
+.githubs{
+    width: 400px;
+    margin-left: 50px;
+}
+
+.githubs li{
+    list-style: none;
+    font-size: 1em;
+}
+
+.githubs li a{
+    color: var(--cinco);
+    text-decoration: none;
+}
+
+.githubs li:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.githubs li:nth-child(1), .githubs li:nth-child(3){
+    padding-left: 100px;
+}
+
+.section3{
+    margin-bottom: 100px;
+}
+
+footer{
+    margin: 0;
+    padding: 0;
+    background-color:var(--cinco);
+    text-align: center;
+}
