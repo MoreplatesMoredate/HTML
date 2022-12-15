@@ -43,7 +43,33 @@ h2{
     border: #27296d;
 }
 .prueba{
-    height: 20em;
-    width: 20em;
-    float:left;
+    width: 16em;
+}
+.prueba:hover{
+        width: 20em;
+        transition: width 2s;
+
+}
+.foto{
+    width: 35em;
+    
+}
+.foto:hover{
+    width: 40em;
+    transition: width 2s;
+}
+.foto2{
+    width: 35em;
+    display: inline;
+    margin-left: 30em;
+}
+.foto2:hover{
+    width: 40em;
+    transition: width 2s;
+}
+.titol5{
+    text-align: center;
+}
+.neo{
+    font-size: 50px;
 }
