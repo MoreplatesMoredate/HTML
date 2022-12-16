@@ -18,7 +18,7 @@
 body{
     justify-content: center;
     margin: 10px;
-    background-color: var(--primary);
+    background: #27296d;
 }
 .carousel-item {
     height: 80vh;
@@ -44,6 +44,7 @@ h2{
 }
 .prueba{
     width: 16em;
+    margin-left:10em;
 }
 .prueba:hover{
         width: 20em;
@@ -51,20 +52,20 @@ h2{
 
 }
 .foto{
-    width: 35em;
-    
+    width: 20em;
+    margin-left:5em;
 }
 .foto:hover{
-    width: 40em;
+    width: 25em;
     transition: width 2s;
 }
 .foto2{
-    width: 35em;
+    width: 20em;
     display: inline;
     margin-left: 30em;
 }
 .foto2:hover{
-    width: 40em;
+    width: 20em;
     transition: width 2s;
 }
 .titol5{
@@ -72,4 +73,42 @@ h2{
 }
 .neo{
     font-size: 50px;
+}
+.roma{
+    font-size: 50px;  
+}
+.texto{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.foto3{
+    display: inline;
+    height: 30em;
+    width: 23em;
+}
+.foto4{
+    display: inline;
+    height: 30em;
+    width: 20em;
+}
+.carousel{
+    width: 30em;
+    margin-left: 50em;
+}
+.carta1{
+    position: relative;
+    left: 18em;
+    bottom: 701px;
+}
+.carta2{
+    position: relative;
+    left: 36em;
+    bottom: 58em;
+}
+.carta3{
+    position: relative;
+    left: 54em;
+    bottom: 1591px;
 }
