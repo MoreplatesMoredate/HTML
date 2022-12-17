@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Imatges</title>
+    <script src="/JavaS/footer.js" type="text/javascript" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/Css/galeria.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navegació</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item ">
+          <a class="nav-link" href="../index.html">PaginaPrincipal<span class="sr-only"></span></a>
+        </li>
+        <li class="nav-item" active>
+          <a class="nav-link" href="/Html/galeria.html">Galeria</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Html/form.html">Formulari</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+      <h1>Galeria</h1>
+      <p>Explora i descarrega imatges de les millors obres de la humanitat:</p>
+      <div class="imatgesfull" id="fullImgBox">
+        <img src="/Img/398px-Caravaggio_-_La_Deposizione_di_Cristo.jpg" alt="" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
+      </div>
+      <div class="galeriaimatges">
+  <img src="/Img/398px-Caravaggio_-_La_Deposizione_di_Cristo.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/403px-Rogier_van_der_Weyden_-_Portrait_of_a_Woman_with_a_Winged_Bonnet_-_Google_Art_Project.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/407px-Leonardo_da_Vinci,_Salvator_Mundi,_c.1500,_oil_on_walnut,_45.4_×_65.6_cm.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/438px-Van_Eyck_-_Arnolfini_Portrait.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/481px-Angelsatmamre-trinity-rublev-1410.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/482px-Hieronymus_Bosch,_The_Last_Judgment.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/557px-07leucip.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/709px-Lamentación_sobre_Cristo_muerto,_por_Andrea_Mantegna.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/732px-Gustave_Courbet_-_Le_Désespéré_(1843).jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/774px-David-Oath_of_the_Horatii-1784.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/793px-Jean-François_Millet_(II)_002.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/799px-Ilya_Repin_-_Barge_Haulers_on_the_Volga_-_Google_Art_Project.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/800px-Jean_Louis_Théodore_Géricault_001.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/800px-Manet,_Edouard_-_Olympia,_1863.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/800px-Pieter_Bruegel_d._Ä._106b.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/800px-Tiziano_-_Amor_Sacro_y_Amor_Profano_(Galería_Borghese,_Roma,_1514).jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/800px-Тройка_-_Василий_Григорьевич_Перов_(1866).jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Annunciation_Triptych_(Merode_Altarpiece)_MET_DP273206.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Caspar_David_Friedrich_-_Wanderer_above_the_sea_of_fog.jpg" alt="" onclick="openFullImg(this.src)"> 
+  <img src="/Img/Chauvethorses.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Claude_Monet,_Impression,_soleil_levant (1).jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Death_of_Marat_by_David.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Edouard_Manet_-_Luncheon_on_the_Grass_-_Google_Art_Project.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/El_Beso_(Pinacoteca_de_Brera,_Milán,_1859).jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/El_jardín_de_las_Delicias,_de_El_Bosco.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Eugène_Delacroix_-_La_liberté_guidant_le_peuple.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Fragonard,_The_Swing.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Francisco_de_Goya,_Saturno_devorando_a_su_hijo_(1819-1823).jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Géricault_-_La_zattera_della_Medusa.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Giorgione_-_Sleeping_Venus_-_Google_Art_Project_2.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Great_Wave_off_Kanagawa2.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Jean_Auguste_Dominique_Ingres,_La_Grande_Odalisque,_1814.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Johannes_Vermeer_-_De_melkmeid.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Karl_Brullov_-_The_Last_Day_of_Pompeii_-_Google_Art_Project.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Las_Meninas_(1656),_by_Velazquez.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Leonardo_da_Vinci_046.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Michelangelo_-_Creation_of_Adam_(cropped).jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Michelangelo_Caravaggio_021.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Paolo_Veronese_008.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Pieter_Bruegel_the_Elder_-_The_Fall_of_the_Rebel_Angels_-_Google_Art_Project.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Pieter_Bruegel_the_Elder_-_The_Tower_of_Babel_(Vienna)_-_Google_Art_Project_-_edited.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/RAFAEL_-_Madonna_Sixtina_(Gemäldegalerie_Alter_Meister,_Dresden,_1513-14._Óleo_sobre_lienzo,_265_x_196_cm).jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Raphael's_Triumph_of_Galatea_02.jpg" alt=""onclick="openFullImg(this.src)">
+  <img src="/Img/Rembrandt_-_The_Anatomy_Lesson_of_Dr_Nicolaes_Tulp.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Rembrandt_Harmensz._van_Rijn_-_The_Return_of_the_Prodigal_Son.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/The_Last_Supper_-_Leonardo_Da_Vinci_-_High_Resolution_32x16.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Tizian_-_Danae_receiving_the_Golden_Rain_-_Prado.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/View_of_Toledo_MET_DP349564.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Watsonandtheshark-original.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Whistlers_Mother_high_res.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/Magritte_TheSonOfMan.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/The_Persistence_of_Memory.jpg" alt="" onclick="openFullImg(this.src)">
+  <img src="/Img/PicassoGuernica.jpg" alt="" onclick="openFullImg(this.src)">
+</div>
+  <script>
+    
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImg = document.getElementById("fullImg");
+
+    function openFullImg(pic){
+      fullImgBox.style.display = "flex";
+      fullImg.src = pic;
+    }
+
+    function closeFullImg(){
+      fullImgBox.style.display = "none";
+    }
+
+  </script>
+ 
+ 
+</body>
+</html>
