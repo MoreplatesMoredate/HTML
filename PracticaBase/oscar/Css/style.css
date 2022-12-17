@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 :root{
-    --primary: #27296d;
-    --secondary: #5e63b6;
-    --teciari:#a393eb;
-    --cuarto:#f5c7f7;
-    --cinco:#f8f8f8;
-    --sexto:#dfebed;
+    --primary: #005689;
+    --secondary: #d5eeff;
+}
+
+.carousel-inner{
+    text-align: center;
 }
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -30,7 +30,7 @@ section{
     justify-content: center;
     align-items: center;
     padding: 80px 100px;
-    color: var(--cinco);
+    color: var(--secondary);
 }
 
 .container{
@@ -114,7 +114,7 @@ section{
 }
 
 .githubs li a{
-    color: var(--cinco);
+    color: var(--secondary);
     text-decoration: none;
 }
 
@@ -131,8 +131,8 @@ section{
 }
 
 footer{
-    margin: 0;
-    padding: 0;
-    background-color:var(--cinco);
+    background-color: (var(--secondary));
     text-align: center;
+    text-overflow: hidden;
 }
+
